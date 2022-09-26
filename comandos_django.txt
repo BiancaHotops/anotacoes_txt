@@ -1,0 +1,42 @@
+Terminal:
+
+python -m venv env
+cd .\env\Scripts\
+.\Activate.ps1
+cd ..
+cd ..
+pip install django
+django-admin startproject 'nome do projeto' .
+py .\manage.py startapp home
+
+******************************************************************************
+
+Terminal:
+py .\manage.py migrate		"Toda vez que atualizar alguma coisa no código usar esses dois primeiros comandos no terminal"
+py .\manage.py createsuperuser  "preencher o usuario como teste clicar ENTER no email e colocar uma senha fácil"
+py .\manage.py runserver
+
+
+********************************************************************************
+QUANDO O PROJETO JA ESTA CRIADO E VAI UTILIZAR O MESMO OS COMANDOS NO TERMINAL SÃO:
+
+python -m venv env
+cd .\env\Scripts\
+.\Activate.ps1
+cd ..
+cd ..
+pip install django      QUANDO O PYTHON NÃO INSTALAR TENTAR USAR (python -m pip install django)
+py .\manage.py runserver
+
+*********************************************************************************
+
+bibliotecas django para instalar:
+
+pip install djangorestframework
+
+pip install pillow
+
+
+
+
+

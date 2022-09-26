@@ -1,0 +1,14 @@
+acesar a internet
+criar um pasta
+
+comandos dentro da pasta:
+
+npx create-expo-app 'nome do projeto'
+cd 'nome do projeto'
+npm install -g expo-cli
+code .
+npx expo start
+w
+npx expo install react-native-web@~0.18.7 react-dom@18.0.0 @expo/webpack-config@^0.17.0
+npx expo start
+w
