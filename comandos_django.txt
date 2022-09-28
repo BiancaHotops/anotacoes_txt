@@ -36,6 +36,9 @@ pip install djangorestframework
 
 pip install pillow
 
+pip install drf-nested-routers
+
+pip install django-pictures
 
 
 
