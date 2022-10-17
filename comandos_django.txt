@@ -40,6 +40,8 @@ pip install drf-nested-routers
 
 pip install django-pictures
 
+pip install whitenoise
 
+pip freeze > requirements.txt
 
 
